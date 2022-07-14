@@ -1,0 +1,83 @@
+.header {
+  padding: 55px 0px;
+}
+.header-container {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: $font-style;
+
+  font-weight: $font-weight400;
+  font-size: 36px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  color: #939393;
+  margin-right: 236px;
+  &:hover,
+  :active {
+    color: $black-color;
+  }
+}
+
+.logo2 {
+  font-family: $font-style;
+
+  font-weight: $font-weight400;
+  font-size: 36px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+
+  color: $black-color;
+  &:hover,
+  :active {
+    color: #939393;
+  }
+}
+.header-item {
+  display: flex;
+}
+.header-list {
+  font-family: $font-style;
+  font-weight: $font-weight500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-right: 50px;
+  &:last-child {
+    margin-right: 0px;
+  }
+  color: $main-color;
+}
+
+.header-btn {
+  font-family: $font-style;
+  margin-left: auto;
+  font-weight: $font-weight400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $black-color;
+  padding: 20px 56px;
+  border: 2px solid #263238;
+  border-radius: 10px;
+  background-color: transparent;
+  min-width: 312px;
+  min-height: 70px;
+
+  &:hover,
+  :active {
+    /* Преображение при наведении */
+    background-image: radial-gradient(
+      ellipse farthest-corner at 50% 50%,
+      #fdeaa8,
+      #263238
+    );
+  }
+  cursor: pointer;
+}

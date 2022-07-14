@@ -1,0 +1,67 @@
+.hero {
+  margin-top: 50px;
+  display: flex;
+}
+.hero-main__contant {
+  width: 540px;
+}
+.hero-logo {
+  width: 654px;
+  height: 510px;
+  padding-left: 144px;
+}
+.hero-title {
+  position: relative;
+  font-family: $font-style;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  color: $black-color;
+  &:after {
+    bottom: 76px;
+    left: 83px;
+
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    content: "";
+    background-image: url(/img/lamp.svg);
+    width: 95.24px;
+    height: 99.24px;
+  }
+}
+.hero_description {
+  font-family: $font-style;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 60px;
+  color: #8f95a5;
+}
+.hero_btn {
+  font-family: $font-style;
+  font-weight: $font-weight400;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  width: 426px;
+  height: 100px;
+  background: #263238;
+  border-radius: 10px;
+  padding: 23px 64px;
+  &:hover,
+  :active {
+    color: black;
+    /* Преображение при наведении */
+    background-image: radial-gradient(
+      ellipse farthest-corner at 50% 50%,
+      #263238,
+      #fdeaa8
+    );
+  }
+  cursor: pointer;
+}
