@@ -1,0 +1,44 @@
+.pricing {
+  padding-top: 168px;
+}
+.priicing-title {
+  font-family: $font-style;
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #000000;
+}
+.pricing-box {
+  display: flex;
+}
+.pricing-item {
+  display: flex;
+}
+.pricing-list {
+  width: 426px;
+  height: 584px;
+  margin-right: 30px;
+}
+.pricing-list__img {
+  width: 426px;
+  height: 320px;
+  margin-bottom: 30px;
+}
+.pricing-list__title {
+  font-family: $font-style;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+
+  text-transform: capitalize;
+  color: #263238;
+}
+.pricing-list__txt {
+  font-family: $font-style;
+  font-weight: $font-weight400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8f95a5;
+}
