@@ -539,6 +539,7 @@ textarea {
 
 .pricing-box {
   display: flex;
+  position: relative;
 }
 
 .pricing-item {
@@ -573,4 +574,20 @@ textarea {
   font-size: 20px;
   line-height: 1.5;
   color: #8f95a5;
+}
+
+.pricing-price {
+  display: flex;
+}
+
+.pricing-list__price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #263238;
+  background: #EEEEEE;
+  border-radius: 5px;
+  width: 260px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
