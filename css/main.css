@@ -576,10 +576,6 @@ textarea {
   color: #8f95a5;
 }
 
-.pricing-price {
-  display: flex;
-}
-
 .pricing-list__price {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -590,4 +586,115 @@ textarea {
   border-radius: 5px;
   width: 260px;
   text-align: center;
+  margin-top: 73px;
+}
+
+.pricing-list__price-1 {
+  margin-top: 44px;
+}
+
+.contacts {
+  display: flex;
+  padding-top: 180px;
+}
+
+.contacts-right {
+  margin-left: 144px;
+}
+
+.contacts-right__title {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 60px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.contacts-right__txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8F95A5;
+}
+
+.contacts-button {
+  width: 312px;
+  height: 70px;
+  background: #263238;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  padding: 20px 56px;
+  cursor: pointer;
+}
+.contacts-button:hover,
+.contacts-button :active {
+  color: black;
+  /* Преображение при наведении */
+  background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #263238, #fdeaa8);
+}
+
+.contacts-input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 425px;
+  height: 66px;
+  line-height: 1.875;
+  margin-right: 30px;
+  padding-left: 30px;
+  border-radius: 10px;
+  border: 1px solid #8F95A5;
+}
+.contacts-input::placeholder {
+  padding: 20px 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.contacts-form {
+  display: flex;
+  margin-top: 30px;
+}
+
+.footer {
+  padding-top: 55px;
+  padding-bottom: 86px;
+}
+
+.footer-item {
+  display: flex;
+}
+
+.footer-list {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #8F95A5;
+  margin-right: 80px;
+}
+.footer-list:last-child {
+  margin-right: 0px;
+}
+
+.footer-box {
+  display: flex;
+  width: 1338px;
+  height: 1px;
+  padding-top: 46px;
+  border-top: 1px solid #C4C4C4;
 }/*# sourceMappingURL=main.css.map */

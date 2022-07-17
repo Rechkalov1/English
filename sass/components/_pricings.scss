@@ -43,9 +43,7 @@
   line-height: 1.5;
   color: #8f95a5;
 }
-.pricing-price{
-  display: flex;
-}
+
 .pricing-list__price{
 font-family: $font-style;
 font-weight: $font-weight400;
@@ -56,4 +54,9 @@ background: #EEEEEE;
 border-radius: 5px;
 width: 260px;
 text-align: center;
+margin-top: 73px;
+
+}
+.pricing-list__price-1{
+  margin-top: 44px;
 }

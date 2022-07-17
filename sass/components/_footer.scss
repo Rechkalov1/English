@@ -1,0 +1,31 @@
+.footer{
+    padding-top: 55px;
+    padding-bottom: 86px;
+}
+.footer-item{
+   display: flex;
+
+}
+.footer-list{ font-family: $font-style;
+
+    font-weight: $font-weight400;
+    font-size: 24px;
+    line-height: calc(36/24);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    
+    color: #8F95A5;
+    margin-right: 80px;
+    &:last-child{
+     margin-right: 0px;
+   
+ }
+
+}
+.footer-box{ 
+    display: flex;
+    width: 1338px;
+    height: 1px;
+    padding-top: 46px;
+    border-top: 1px solid  #C4C4C4;}
