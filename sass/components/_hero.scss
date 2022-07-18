@@ -1,22 +1,43 @@
 .hero {
-  margin-top: 50px;
-  display: flex;
+  @media screen and(min-width:321px) and(max-width:1337px) {
+    padding-top: 30px;
+    display: flex;
+  }
+  @media screen and(min-width:1338px) {
+    padding-top: 50px;
+    display: flex;
+  }
 }
 .hero-main__contant {
-  width: 540px;
+  @media screen and(min-width:1338px) {
+    width: 540px;
+  }
+  @media screen and(min-width:321px) and(max-width:1337px) {
+    width: 338px;
+  }
 }
 .hero-logo {
-  width: 654px;
-  height: 510px;
-  padding-left: 144px;
+  @media screen and(min-width:1338px) {
+    width: 654px;
+    height: 510px;
+    padding-left: 144px;
+  }
+  @media screen and(min-width:321px) and(max-width:1337px) {
+    width: 352px;
+    height: 352px;
+  }
 }
 .hero-title {
   position: relative;
   font-family: $font-style;
-  margin-bottom: 40px;
   font-weight: 600;
-  font-size: 64px;
-  line-height: 80px;
+  color: #000000;
+
+  @media screen and(min-width:1338px) {
+    margin-bottom: 40px;
+    font-size: 64px;
+    line-height: 80px;
+  }
   color: $black-color;
   &:after {
     bottom: 76px;
@@ -30,29 +51,62 @@
     width: 95.24px;
     height: 99.24px;
   }
+  @media screen and(min-width:321px) and (max-width: 769px) {
+    margin-bottom: 25px;
+    width: 217px;
+    height: 135px;
+    font-size: 36px;
+    line-height: calc(45 / 36);
+    text-align: left;
+    &:after {
+      bottom: 6px;
+      left: 217px;
+
+      align-items: center;
+      display: inline-block;
+      position: absolute;
+      content: "";
+      background-image: url(/img/lam_table.svg);
+      width: 55.24px;
+      height: 60.24px;
+    }
+  }
 }
 .hero_description {
   font-family: $font-style;
-
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 60px;
   color: #8f95a5;
+  @media screen and(min-width:1338px) {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 321px) and (max-width: 768px) {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
 }
 .hero_btn {
   font-family: $font-style;
   font-weight: $font-weight400;
-  font-size: 36px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: #ffffff;
-  width: 426px;
-  height: 100px;
   background: #263238;
   border-radius: 10px;
-  padding: 23px 64px;
+  @media screen and(min-width:1338px) {
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 426px;
+    height: 100px;
+    padding: 23px 64px;
+  }
+  @media screen and(min-width:321px) and (max-width: 768px) {
+    font-size: 18px;
+    line-height: calc(27 / 18);
+    padding: 19px 67px;
+  }
   &:hover,
   :active {
     color: black;

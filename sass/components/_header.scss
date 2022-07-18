@@ -1,12 +1,22 @@
 .header {
-  padding: 55px 0px;
+  @media screen and(min-width:768px) {
+    padding: 39px 0px;
+  }
+  @media screen and(min-width:1338px) {
+    padding: 55px 0px;
+  }
 }
 .header-container {
   display: flex;
 }
 .header-nav {
-  display: flex;
-  align-items: center;
+  @media screen and(min-width:330px) and (max-width: 1337px) {
+    display: none;
+  }
+  @media screen and(min-width:1338px) {
+    display: flex;
+    align-items: center;
+  }
 }
 .logo {
   font-family: $font-style;
@@ -55,6 +65,9 @@
 }
 
 .header-btn {
+  @media screen and(min-width:330px) and (max-width: 1337px) {
+    display: none;
+  }
   font-family: $font-style;
   margin-left: auto;
   font-weight: $font-weight400;
