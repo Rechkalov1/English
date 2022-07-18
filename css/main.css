@@ -29,9 +29,6 @@ textarea {
 }
 
 .container {
-  width: 1338px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,17 +39,17 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 728px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media screen and (min-width: 1338px) {
   .container {
+    padding-left: 20px;
+    padding-right: 20px;
     width: 1338px;
   }
-}
-
-.section-product {
-  margin-top: 80px;
 }
 
 @media screen and (min-width: 768px) {
@@ -835,27 +832,65 @@ textarea {
   display: flex;
   align-items: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .about {
+    margin-top: 52px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .about {
+    margin-top: 192px;
+  }
+}
 
-.about-left {
-  width: 652px;
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .about-left {
+    width: 321px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .about-left {
+    width: 652px;
+    margin-right: 146px;
+  }
 }
 
 .about-left__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 1.5;
-  margin-bottom: 60px;
   color: #000000;
+}
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .about-left__title {
+    font-size: 30px;
+    line-height: 2.6666666667;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .about-left__title {
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+  }
 }
 
 .about-left__desc {
   font-family: "Poppins", sans-serif;
-  margin-bottom: 30px;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
   color: #8f95a5;
+}
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .about-left__desc {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .about-left__desc {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
 }
 
 .about-left__list {
@@ -865,31 +900,64 @@ textarea {
 .about-left__number {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 1.5;
   color: #2a3246;
+}
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .about-left__number {
+    font-size: 22px;
+    line-height: 3.6363636364;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .about-left__number {
+    font-size: 48px;
+    line-height: 1.5;
+  }
 }
 
 .about-left__txt {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
   color: #8f95a5;
+}
+@media screen and (min-width: 767px) and (max-width: 1337px) {
+  .about-left__txt {
+    font-size: 13px;
+    line-height: 1.5384615385;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .about-left__txt {
+    font-size: 20px;
+    line-height: 1.5;
+  }
 }
 
 .about-left__item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 131px;
 }
-.about-left__item:last-child {
-  margin-right: 0px;
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .about-left__item:last-child {
+    margin-left: 29px;
+  }
+  .about-left__item:first-child {
+    margin-right: 29px;
+  }
 }
-.about-left__item:first-child {
-  margin-left: 49px;
+@media screen and (min-width: 1338px) {
+  .about-left__item {
+    margin-right: 131px;
+    width: 108px;
+  }
+  .about-left__item:last-child {
+    margin-right: 0px;
+  }
+  .about-left__item:first-child {
+    margin-left: 49px;
+  }
 }
 
 .about-right__img {
@@ -898,56 +966,124 @@ textarea {
   margin-left: 146px;
 }
 
-.pricing {
-  padding-top: 168px;
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .pricing {
+    padding-top: 88px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .pricing {
+    padding-top: 168px;
+  }
 }
 
 .priicing-title {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 1.5;
   color: #000000;
 }
-
-.pricing-box {
-  display: flex;
-  position: relative;
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .priicing-title {
+    font-size: 30px;
+    line-height: 2.6666666667;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .priicing-title {
+    font-size: 48px;
+    line-height: 1.5;
+  }
 }
 
-.pricing-item {
-  display: flex;
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .pricing-box {
+    display: flex;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .pricing-box {
+    display: flex;
+    position: relative;
+  }
 }
 
-.pricing-list {
-  width: 426px;
-  height: 584px;
-  margin-right: 30px;
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .pricing-item {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .pricing-item {
+    display: flex;
+  }
 }
 
-.pricing-list__img {
-  width: 426px;
-  height: 320px;
-  margin-bottom: 30px;
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .pricing-list {
+    width: 205px;
+    height: 443px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .pricing-list {
+    width: 426px;
+    height: 584px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .pricing-list__img {
+    width: 212px;
+    height: 197px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .pricing-list__img {
+    width: 426px;
+    height: 320px;
+    margin-bottom: 30px;
+  }
 }
 
 .pricing-list__title {
   font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 1.5;
   text-transform: capitalize;
   color: #263238;
+}
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .pricing-list__title {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .pricing-list__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1.5;
+  }
 }
 
 .pricing-list__txt {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
   color: #8f95a5;
+}
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .pricing-list__txt {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .pricing-list__txt {
+    font-size: 20px;
+    line-height: 1.5;
+  }
 }
 
 .pricing-list__price {
@@ -956,7 +1092,7 @@ textarea {
   font-size: 24px;
   line-height: 1.5;
   color: #263238;
-  background: #EEEEEE;
+  background: #eeeeee;
   border-radius: 5px;
   width: 260px;
   text-align: center;
