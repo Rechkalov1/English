@@ -18,6 +18,15 @@
         <a class="logo" href="index.html"
           ><span class="logo2">Brit</span>lex</a
         >
+        <button
+        class="menu-btn"
+        type="button"
+        aria-label="кнопка меню"
+        aria-expanded="false"
+        data-menu-button
+      >
+       <img src="./img/burger-menu.png" alt="">
+      </button>
         <nav class="header-nav">
           <ul class="header-item">
             <li>
@@ -465,6 +474,39 @@ our first session for only $1</p>
         </div>
       </footer>
     </main>
-    <script src="js/script.js"></script>
+    <div class="mobile-overlay" data-menu>
+      <div class="mobile-menu">
+        <button class="menu-btn-close" type="button" data-menu-close>
+          <svg class="menu-btn__icon" width="44" height="44">
+            <use
+              class="menu-btn__icon-close"
+              href="./img/icons.svg#icon-close"
+            ></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav_list">
+            <li class="mobile-nav__item">
+     
+            </li>
+            <li class="mobile-nav__item">
+              <a href="./index.html" class="header-list">Home</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#" class="header-list">About Us</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#" class="header-list">Pricing</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#" class="header-list">Contacts</a>
+            </li>
+          </ul>
+        
+         
+        </div>
+      </div>
+    </div>
+    <script src="./js/open-close.js"></script>
   </body>
 </html>

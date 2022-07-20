@@ -1,0 +1,57 @@
+.menu-btn {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  background-color: inherit;
+  border: transparent;
+  outline: transparent;
+  margin-left: auto;
+  margin-right: 30px;
+
+  padding: 0;
+  &.is-active .menu-btn__icon-open {
+    opacity: 0;
+  }
+  &.is-active .menu-btn__icon-close {
+    opacity: 1;
+  }
+  @media screen and (min-width: 1337px) {
+    display: none;
+  }
+}
+.menu-btn__icon {
+  width: 44px;
+  height: 44px;
+}
+.menu-btn__icon-open {
+  &:hover {
+    fill: black;
+  }
+  &:focus {
+    fill: black;
+  }
+}
+.menu-btn-close {
+  position: absolute;
+  top: 22px;
+  right: 59px;
+  display: inline;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  background-color: transparent;
+  border: transparent;
+  outline: transparent;
+
+  padding: 0;
+}
+.menu-btn__icon-close {
+  &:hover {
+    fill: black;
+  }
+  &:focus {
+    fill: black;
+  }
+}
