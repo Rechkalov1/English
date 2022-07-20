@@ -1,72 +1,142 @@
-.contacts{display: flex;
+.contacts {
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    display: flex;
+    padding-top: 72px;
+  }
+  @media screen and (min-width: 1338px) {
     padding-top: 180px;
+  }
 }
 
-.contacts-right{
+.contacts-right {
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    margin-left: 28px;
+  }
+  @media screen and (min-width: 1338px) {
     margin-left: 144px;
+  }
 }
-.contacts-right__title{font-family: $font-style;
-    margin-bottom: 60px;
-    font-weight: 600;
+.contacts-right__title {
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    font-size: 30px;
+    line-height: calc(80 / 30);
+  }
+  @media screen and (min-width: 1338px) {
     font-size: 48px;
-    line-height: calc(72/48);
-    color: #000000;
+    margin-bottom: 60px;
+    line-height: calc(72 / 48);
+  }
+  font-family: $font-style;
+  font-weight: 600;
+  color: #000000;
 }
-    
-.contacts-right__txt{
-font-family: 'Poppins';
- font-style: normal;
-font-weight: 400;
- font-size: 20px;
-line-height: 30px;
-     color: #8F95A5;
-}
-.contacts-button{
-    width: 312px;
-height: 70px;
-    background: #263238;
-border-radius: 10px;
-font-family: $font-style;
 
-font-weight: 500;
-font-size: 20px;
-line-height: calc(30/20);
-text-align: center;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-padding: 20px 56px;
-&:hover,
-:active {
-  color: black;
-  /* Преображение при наведении */
-  background-image: radial-gradient(
-    ellipse farthest-corner at 50% 50%,
-    #263238,
-    #fdeaa8
-  );
+.contacts-right__txt {
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    font-size: 14px;
+    line-height: calc(21 / 14);
+  }
+  @media screen and (min-width: 1338px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8f95a5;
 }
-cursor: pointer;
+.contacts-button {
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    width: 145px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: calc(20 / 13);
+    padding: 14px 38px;
+  }
+  @media screen and (min-width: 1338px) {
+    width: 312px;
+    height: 70px;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    padding: 20px 56px;
+    border-radius: 10px;
+  }
+  background: #263238;
+
+  font-family: $font-style;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  &:hover,
+  :active {
+    color: black;
+    /* Преображение при наведении */
+    background-image: radial-gradient(
+      ellipse farthest-corner at 50% 50%,
+      #263238,
+      #fdeaa8
+    );
+  }
+  cursor: pointer;
 }
-.contacts-input{
-    font-family: $font-style;
-    font-weight: $font-weight400;
+.contacts-input {
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    border-radius: 5px;
+    width: 283px;
+    height: 46px;
+    font-size: 12px;
+    line-height: calc(18 / 12);
+    margin-right: 5px;
+    padding-left: 30px;
+    &::placeholder {
+      padding: 20px 0px;
+      font-family: $font-style;
+
+      font-weight: $font-weight400;
+      font-size: 12px;
+      line-height: calc(30 / 16);
+    }
+  }
+  @media screen and (min-width: 1338px) {
     font-size: 16px;
     width: 425px;
     height: 66px;
-    line-height: calc(30/16);
+    line-height: calc(30 / 16);
     margin-right: 30px;
     padding-left: 30px;
     border-radius: 10px;
-    border: 1px solid #8F95A5;
-&::placeholder{
-    padding: 20px 0px;
-    font-family: $font-style;
+    &::placeholder {
+      padding: 20px 0px;
+      font-family: $font-style;
 
-font-weight: $font-weight400;
-font-size: 16px;
-line-height: calc(30/16);
-}}
-.contacts-form{
- display: flex;
- margin-top: 30px;
- }
+      font-weight: $font-weight400;
+      font-size: 16px;
+      line-height: calc(30 / 16);
+    }
+  }
+  font-family: $font-style;
+  font-weight: $font-weight400;
+
+  border: 1px solid #8f95a5;
+}
+.contacts-form {
+  display: flex;
+  margin-top: 30px;
+}
