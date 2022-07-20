@@ -1,4 +1,8 @@
 .hero {
+  @media screen and (max-width: 320px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   @media screen and(min-width:321px) and(max-width:1337px) {
     padding-top: 30px;
     display: flex;
@@ -9,6 +13,8 @@
   }
 }
 .hero-main__contant {
+  @media screen and (max-width: 320px) {
+  }
   @media screen and(min-width:1338px) {
     width: 540px;
   }
@@ -32,25 +38,30 @@
   font-family: $font-style;
   font-weight: 600;
   color: #000000;
-
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
+    line-height: calc(36 / 24);
+    text-align: center;
+  }
   @media screen and(min-width:1338px) {
     margin-bottom: 40px;
     font-size: 64px;
     line-height: 80px;
+    &:after {
+      bottom: 76px;
+      left: 83px;
+
+      align-items: center;
+      display: inline-block;
+      position: relative;
+      content: "";
+      background-image: url(/img/lamp.svg);
+      width: 95.24px;
+      height: 99.24px;
+    }
   }
   color: $black-color;
-  &:after {
-    bottom: 76px;
-    left: 83px;
 
-    align-items: center;
-    display: inline-block;
-    position: relative;
-    content: "";
-    background-image: url(/img/lamp.svg);
-    width: 95.24px;
-    height: 99.24px;
-  }
   @media screen and(min-width:321px) and (max-width: 769px) {
     margin-bottom: 25px;
     width: 217px;
@@ -76,6 +87,11 @@
   font-family: $font-style;
   font-weight: 400;
   color: #8f95a5;
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: calc(21 / 14);
+    text-align: center;
+  }
   @media screen and(min-width:1338px) {
     font-size: 24px;
     line-height: 36px;
@@ -93,6 +109,15 @@
   color: #ffffff;
   background: #263238;
   border-radius: 10px;
+  @media screen and (max-width: 320px) {
+    width: 289px;
+    height: 60px;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    padding: 16px 95px;
+    display: block;
+    margin: 0 auto;
+  }
   @media screen and(min-width:1338px) {
     font-size: 36px;
     line-height: 1.5;

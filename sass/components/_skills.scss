@@ -1,6 +1,9 @@
 .skills {
   position: relative;
-  @media screen and(min-width:320px) and(max-width: 1337px) {
+  @media screen and (max-width: 320px) {
+    padding-top: 53px;
+  }
+  @media screen and(min-width:321px) and(max-width: 1337px) {
     padding-top: 56px;
   }
   @media screen and(min-width:1338px) {
@@ -13,7 +16,12 @@
 
   text-align: center;
   color: $black-color;
-  @media screen and(min-width:320px) and(min-width: 1337px) {
+  @media screen and (max-width: 320px) {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: calc(80 / 24);
+  }
+  @media screen and(min-width:321px) and(min-width: 1337px) {
     font-size: 30px;
     line-height: calc(80 / 20);
     margin-bottom: 37px;
@@ -25,25 +33,41 @@
   }
 }
 .skills-content {
-  display: flex;
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1338px) {
+    display: flex;
+  }
 }
 .skills-left__bar {
   background: #f5f5f5;
   border-radius: 10px;
+  @media screen and (max-width: 320px) {
+    margin-bottom: 21px;
+    width: 290px;
+  }
   @media screen and(min-width:1338px) {
     height: 947px;
     width: 426px;
     margin-right: 15px;
   }
-  @media screen and(min-width:320px) and(max-width: 1337px) {
+  @media screen and(min-width:321px) and(max-width: 1337px) {
     width: 224px;
     height: 662px;
   }
 }
 .skills-left__bar-btn {
   @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: calc(21 / 14);
+    padding: 12px 41px;
+    width: 178px;
+    height: 50px;
   }
-  @media screen and (min-width: 768px) and (max-width: 1337px) {
+  @media screen and (min-width: 321px) and (max-width: 1337px) {
     width: 178px;
     height: 50px;
     font-size: 16px;
@@ -78,6 +102,9 @@
 }
 .skills-left__bar-img {
   @media screen and (max-width: 320px) {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     padding: 31px 9px 0px 1px;
@@ -97,6 +124,8 @@
 
   color: #263238;
   @media screen and (max-width: 320px) {
+    font-size: 18px;
+    line-height: calc(80 / 18);
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 20px;
@@ -115,6 +144,8 @@
   font-weight: 400;
   color: #8f95a5;
   @media screen and (max-width: 320px) {
+    font-size: 13px;
+    line-height: calc(20 / 13);
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -150,12 +181,21 @@
   }
 }
 .skills-right__bar {
-  display: flex;
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1338px) {
+    display: flex;
+  }
 }
 
 // первый правый сайтбар
 .skills-right__bar-1 {
   @media screen and (max-width: 320px) {
+    margin-bottom: 21px;
+    width: 290px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 227px;
@@ -174,6 +214,11 @@
   border-radius: 10px;
 }
 .skills-right__bar-img-1 {
+  @media screen and (max-width: 320px) {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+  }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     padding: 12px 24px 0px 3px;
     width: 200px;
@@ -193,6 +238,8 @@
 
   color: #263238;
   @media screen and (max-width: 320px) {
+    font-size: 18px;
+    line-height: calc(80 / 18);
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 20px;
@@ -213,6 +260,8 @@
   color: #8f95a5;
 
   @media screen and (max-width: 320px) {
+    font-size: 13px;
+    line-height: calc(20 / 13);
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -233,6 +282,13 @@
   font-family: $font-style;
   font-weight: 500;
   color: #ffffff;
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: calc(21 / 14);
+    padding: 12px 41px;
+    width: 178px;
+    height: 50px;
+  }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 178px;
     height: 50px;
@@ -267,6 +323,8 @@
   border-radius: 10px;
 
   @media screen and (max-width: 320px) {
+    margin-bottom: 21px;
+    width: 290px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 228px;
@@ -279,6 +337,11 @@
   }
 }
 .skills-right__bar-img-2 {
+  @media screen and (max-width: 320px) {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+  }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     padding: 34px 14px 0px 2px;
     width: 216px;
@@ -296,6 +359,8 @@
 
   font-weight: 600;
   @media screen and (max-width: 320px) {
+    font-size: 18px;
+    line-height: calc(80 / 18);
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 20px;
@@ -318,6 +383,8 @@
   color: #8f95a5;
 
   @media screen and (max-width: 320px) {
+    font-size: 13px;
+    line-height: calc(20 / 13);
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -338,6 +405,13 @@
   font-family: $font-style;
   font-weight: 500;
   color: #ffffff;
+  @media screen and(max-width:320px) {
+    font-size: 14px;
+    line-height: calc(21 / 14);
+    padding: 12px 41px;
+    width: 178px;
+    height: 50px;
+  }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 178px;
     height: 50px;
@@ -369,20 +443,25 @@
 //третий сайт бар
 .skills-right__bar-3 {
   @media screen and (max-width: 320px) {
+    flex-direction: column-reverse;
+    width: 290px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
+    position: absolute;
+
     right: 50px;
     bottom: 0;
     width: 462px;
     height: 210px;
   }
   @media screen and (min-width: 1338px) {
+    position: absolute;
+
     right: 20px;
     bottom: 0;
     width: 882px;
     height: 338px;
   }
-  position: absolute;
 
   display: flex;
 
@@ -390,10 +469,11 @@
   border-radius: 10px;
 }
 .skills-right__bar-img-3 {
-  width: 408px;
-  height: 274px;
-  padding-top: 32px;
-  padding-right: 18px;
+  @media screen and (max-width: 320px) {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+  }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     padding: 59px 1px 17px 2px;
     width: 202px;
@@ -411,6 +491,8 @@
   font-weight: 600;
   color: #263238;
   @media screen and (max-width: 320px) {
+    font-size: 18px;
+    line-height: calc(80 / 18);
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 20px;
@@ -433,6 +515,8 @@
   color: #8f95a5;
 
   @media screen and (max-width: 320px) {
+    font-size: 13px;
+    line-height: calc(20 / 13);
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -454,6 +538,13 @@
   font-family: $font-style;
   font-weight: 500;
   color: #ffffff;
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: calc(21 / 14);
+    padding: 12px 41px;
+    width: 178px;
+    height: 50px;
+  }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 178px;
     height: 50px;
