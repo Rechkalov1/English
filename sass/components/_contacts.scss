@@ -1,15 +1,25 @@
 .contacts {
   @media screen and (max-width: 320px) {
+    padding-top: 72px;
+    padding-bottom: 92px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
-    display: flex;
     padding-top: 72px;
   }
   @media screen and (min-width: 1338px) {
     padding-top: 180px;
   }
 }
-
+.contacts-contacts {
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1338px) {
+    display: flex;
+  }
+}
 .contacts-right {
   @media screen and (max-width: 320px) {
   }
@@ -20,14 +30,19 @@
     margin-left: 144px;
   }
 }
+
 .contacts-right__title {
   @media screen and (max-width: 320px) {
+    text-align: center;
+    margin-bottom: 35px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 30px;
     line-height: calc(80 / 30);
+    margin-left: 260px;
   }
   @media screen and (min-width: 1338px) {
+    margin-left: 568px;
     font-size: 48px;
     margin-bottom: 60px;
     line-height: calc(72 / 48);
@@ -36,9 +51,20 @@
   font-weight: 600;
   color: #000000;
 }
-
+.contacts-left {
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+  }
+  @media screen and (min-width: 1338px) {
+    margin-top: -85px;
+  }
+}
 .contacts-right__txt {
   @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: calc(21 / 14);
+    text-align: center;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 14px;
@@ -57,6 +83,13 @@
 }
 .contacts-button {
   @media screen and (max-width: 320px) {
+    width: 272px;
+    height: 60px;
+    padding: 18px 105px;
+    font-size: 14px;
+    line-height: calc(21 / 14);
+    border-radius: 5px;
+    margin-top: 37px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 145px;
@@ -96,6 +129,16 @@
 }
 .contacts-input {
   @media screen and (max-width: 320px) {
+    height: 50px;
+    padding-left: 30px;
+    &::placeholder {
+      padding: 20px 0px;
+      font-family: $font-style;
+
+      font-weight: $font-weight400;
+      font-size: 12px;
+      line-height: calc(30 / 16);
+    }
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     border-radius: 5px;
@@ -137,6 +180,10 @@
   border: 1px solid #8f95a5;
 }
 .contacts-form {
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+    width: 271px;
+  }
   display: flex;
   margin-top: 30px;
 }

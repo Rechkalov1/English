@@ -66,6 +66,7 @@
     padding: 12px 41px;
     width: 178px;
     height: 50px;
+    margin-bottom: 45px;
   }
   @media screen and (min-width: 321px) and (max-width: 1337px) {
     width: 178px;
@@ -146,6 +147,7 @@
   @media screen and (max-width: 320px) {
     font-size: 13px;
     line-height: calc(20 / 13);
+    margin-bottom: 30px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -165,6 +167,9 @@
   font-weight: 400;
   color: #8f95a5;
   @media screen and (max-width: 320px) {
+    font-size: 13px;
+    line-height: calc(20 / 13);
+    margin-bottom: 30px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -262,6 +267,7 @@
   @media screen and (max-width: 320px) {
     font-size: 13px;
     line-height: calc(20 / 13);
+    margin-bottom: 30px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -288,6 +294,7 @@
     padding: 12px 41px;
     width: 178px;
     height: 50px;
+    margin-bottom: 45px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 178px;
@@ -385,6 +392,7 @@
   @media screen and (max-width: 320px) {
     font-size: 13px;
     line-height: calc(20 / 13);
+    margin-bottom: 30px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -411,6 +419,7 @@
     padding: 12px 41px;
     width: 178px;
     height: 50px;
+    margin-bottom: 45px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 178px;
@@ -517,6 +526,7 @@
   @media screen and (max-width: 320px) {
     font-size: 13px;
     line-height: calc(20 / 13);
+    margin-bottom: 30px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -544,6 +554,7 @@
     padding: 12px 41px;
     width: 178px;
     height: 50px;
+    margin-bottom: 45px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 178px;
@@ -574,7 +585,13 @@
   cursor: pointer;
 }
 .skills-right__bar-3-txt {
-  width: 324px;
+  @media screen and (max-width: 320px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+  }
+  @media screen and (min-width: 1338px) {
+    width: 324px;
+  }
 }
 .skills-right__bar-3-img {
   margin-left: auto;

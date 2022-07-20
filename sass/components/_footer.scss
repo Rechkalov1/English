@@ -12,31 +12,59 @@
 }
 .footer-item {
   @media screen and (max-width: 320px) {
+    display: flex;
+    padding-bottom: 48px;
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     display: flex;
     position: relative;
+    margin-left: auto;
   }
   @media screen and (min-width: 1338px) {
     display: flex;
   }
 }
 .footer-list-1 {
-  &:after {
-    bottom: -9px;
-    left: 3px;
+  @media screen and (max-width: 320px) {
+    &:after {
+      bottom: 2px;
+      left: 0px;
 
-    align-items: center;
-    display: inline-block;
-    position: relative;
-    content: "";
-    background-color: #8f95a5;
-    width: 3px;
-    height: 3px;
+      align-items: center;
+      display: inline-block;
+      position: relative;
+      content: "";
+      background-color: #8f95a5;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    &:after {
+      bottom: -9px;
+      left: 3px;
+
+      align-items: center;
+      display: inline-block;
+      position: relative;
+      content: "";
+      background-color: #8f95a5;
+      width: 3px;
+      height: 3px;
+    }
+  }
+  @media screen and (min-width: 1338px) {
   }
 }
 .footer-list {
   @media screen and (max-width: 320px) {
+    font-size: 11px;
+    line-height: 16px;
+    margin-right: 2px;
+    &:last-child {
+      margin-right: 0px;
+    }
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     font-size: 13px;
@@ -68,15 +96,70 @@
     width: 728px;
     height: 1px;
     padding-top: 46px;
+    display: flex;
+    align-items: center;
   }
   @media screen and (min-width: 1338px) {
     width: 1338px;
     height: 1px;
     padding-top: 46px;
+    display: flex;
   }
-  display: flex;
-  width: 1338px;
+
   height: 1px;
   padding-top: 46px;
   border-top: 1px solid #c4c4c4;
+}
+.footer-logo {
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  @media screen and (min-width: 1338px) {
+    margin-right: 236px;
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  font-family: $font-style;
+  font-weight: $font-weight400;
+  display: flex;
+  align-items: center;
+  color: #939393;
+
+  &:hover,
+  :active {
+    color: $black-color;
+  }
+}
+.foter-logo2 {
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1337px) {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  @media screen and (min-width: 1338px) {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  font-family: $font-style;
+
+  font-weight: $font-weight400;
+
+  display: flex;
+  align-items: center;
+
+  color: $black-color;
+  &:hover,
+  :active {
+    color: #939393;
+  }
 }

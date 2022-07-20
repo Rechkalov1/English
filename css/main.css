@@ -293,6 +293,7 @@ textarea {
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
+    margin-bottom: 33px;
   }
 }
 @media screen and (min-width: 1338px) {
@@ -451,6 +452,7 @@ textarea {
     padding: 12px 41px;
     width: 178px;
     height: 50px;
+    margin-bottom: 45px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 1337px) {
@@ -538,6 +540,7 @@ textarea {
   .skills-left__bar-desc {
     font-size: 13px;
     line-height: 1.5384615385;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -561,6 +564,13 @@ textarea {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #8f95a5;
+}
+@media screen and (max-width: 320px) {
+  .skills-left__bar-desc__span {
+    font-size: 13px;
+    line-height: 1.5384615385;
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .skills-left__bar-desc__span {
@@ -677,6 +687,7 @@ textarea {
   .skills-right__bar-desc-1 {
     font-size: 13px;
     line-height: 1.5384615385;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -711,6 +722,7 @@ textarea {
     padding: 12px 41px;
     width: 178px;
     height: 50px;
+    margin-bottom: 45px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -824,6 +836,7 @@ textarea {
   .skills-right__bar-desc-2 {
     font-size: 13px;
     line-height: 1.5384615385;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -858,6 +871,7 @@ textarea {
     padding: 12px 41px;
     width: 178px;
     height: 50px;
+    margin-bottom: 45px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -978,6 +992,7 @@ textarea {
   .skills-right__bar-desc-3 {
     font-size: 13px;
     line-height: 1.5384615385;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -1011,6 +1026,7 @@ textarea {
     padding: 12px 41px;
     width: 178px;
     height: 50px;
+    margin-bottom: 45px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -1040,8 +1056,10 @@ textarea {
   background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #263238, #fdeaa8);
 }
 
-.skills-right__bar-3-txt {
-  width: 324px;
+@media screen and (min-width: 1338px) {
+  .skills-right__bar-3-txt {
+    width: 324px;
+  }
 }
 
 .skills-right__bar-3-img {
@@ -1049,9 +1067,13 @@ textarea {
 }
 
 .about {
-  margin-top: 192px;
-  display: flex;
   align-items: center;
+}
+@media screen and (max-width: 320px) {
+  .about {
+    margin-top: 36px;
+    flex-direction: column-reverse;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .about {
@@ -1064,9 +1086,23 @@ textarea {
   }
 }
 
+.about-about {
+  display: flex;
+}
+@media screen and (max-width: 320px) {
+  .about-about {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about-left {
+    margin-top: 20px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .about-left {
     width: 321px;
+    margin-right: 78px;
   }
 }
 @media screen and (min-width: 1338px) {
@@ -1091,7 +1127,6 @@ textarea {
   .about-left__title {
     font-size: 48px;
     line-height: 1.5;
-    margin-bottom: 60px;
   }
 }
 
@@ -1109,13 +1144,24 @@ textarea {
 @media screen and (min-width: 1338px) {
   .about-left__desc {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 65px;
     line-height: 1.5;
+    margin-top: 65px;
   }
 }
 
 .about-left__list {
   display: flex;
+}
+@media screen and (max-width: 320px) {
+  .about-left__list {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .about-left__list {
+    margin-top: 40px;
+  }
 }
 
 .about-left__number {
@@ -1142,6 +1188,11 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
+@media screen and (max-width: 320px) {
+  .about-left__txt {
+    margin-top: 5px;
+  }
+}
 @media screen and (min-width: 767px) and (max-width: 1337px) {
   .about-left__txt {
     font-size: 13px;
@@ -1159,6 +1210,11 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (max-width: 320px) {
+  .about-left__item {
+    margin-top: 20px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .about-left__item:last-child {
@@ -1187,6 +1243,11 @@ textarea {
   margin-left: 146px;
 }
 
+@media screen and (max-width: 320px) {
+  .pricing {
+    padding-top: 84px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .pricing {
     padding-top: 88px;
@@ -1204,6 +1265,11 @@ textarea {
   font-weight: 600;
   color: #000000;
 }
+@media screen and (max-width: 320px) {
+  .priicing-title {
+    margin-bottom: 49px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .priicing-title {
     font-size: 30px;
@@ -1217,6 +1283,11 @@ textarea {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .pricing-box {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .pricing-box {
     display: flex;
@@ -1230,6 +1301,11 @@ textarea {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .pricing-item {
+    display: inline;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .pricing-item {
     display: flex;
@@ -1286,6 +1362,14 @@ textarea {
   text-transform: capitalize;
   color: #263238;
 }
+@media screen and (max-width: 320px) {
+  .pricing-list__title {
+    font-size: 18px;
+    line-height: 1.5555555556;
+    text-align: center;
+    margin-bottom: 17px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .pricing-list__title {
     font-size: 26px;
@@ -1305,6 +1389,14 @@ textarea {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #8f95a5;
+}
+@media screen and (max-width: 320px) {
+  .pricing-list__txt {
+    font-size: 13px;
+    line-height: 1.5384615385;
+    text-align: center;
+    margin-bottom: 33px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .pricing-list__txt {
@@ -1326,6 +1418,14 @@ textarea {
   background: #eeeeee;
   border-radius: 5px;
   text-align: center;
+}
+@media screen and (max-width: 320px) {
+  .pricing-list__price {
+    width: 170px;
+    text-align: center;
+    height: 37px;
+    margin: 0 auto;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .pricing-list__price {
@@ -1387,15 +1487,31 @@ textarea {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .contacts {
+    padding-top: 72px;
+    padding-bottom: 92px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .contacts {
-    display: flex;
     padding-top: 72px;
   }
 }
 @media screen and (min-width: 1338px) {
   .contacts {
     padding-top: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .contacts-contacts {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .contacts-contacts {
+    display: flex;
   }
 }
 
@@ -1415,17 +1531,31 @@ textarea {
   font-weight: 600;
   color: #000000;
 }
+@media screen and (max-width: 320px) {
+  .contacts-right__title {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .contacts-right__title {
     font-size: 30px;
     line-height: 2.6666666667;
+    margin-left: 260px;
   }
 }
 @media screen and (min-width: 1338px) {
   .contacts-right__title {
+    margin-left: 568px;
     font-size: 48px;
     margin-bottom: 60px;
     line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1338px) {
+  .contacts-left {
+    margin-top: -85px;
   }
 }
 
@@ -1436,6 +1566,13 @@ textarea {
   font-size: 20px;
   line-height: 30px;
   color: #8f95a5;
+}
+@media screen and (max-width: 320px) {
+  .contacts-right__txt {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .contacts-right__txt {
@@ -1458,6 +1595,17 @@ textarea {
   letter-spacing: 0.03em;
   color: #ffffff;
   cursor: pointer;
+}
+@media screen and (max-width: 320px) {
+  .contacts-button {
+    width: 272px;
+    height: 60px;
+    padding: 18px 105px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 5px;
+    margin-top: 37px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .contacts-button {
@@ -1490,6 +1638,19 @@ textarea {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   border: 1px solid #8f95a5;
+}
+@media screen and (max-width: 320px) {
+  .contacts-input {
+    height: 50px;
+    padding-left: 30px;
+  }
+  .contacts-input::placeholder {
+    padding: 20px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.875;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .contacts-input {
@@ -1532,6 +1693,12 @@ textarea {
   display: flex;
   margin-top: 30px;
 }
+@media screen and (max-width: 320px) {
+  .contacts-form {
+    flex-direction: column;
+    width: 271px;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .footer {
@@ -1546,10 +1713,17 @@ textarea {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .footer-item {
+    display: flex;
+    padding-bottom: 48px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .footer-item {
     display: flex;
     position: relative;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1338px) {
@@ -1558,23 +1732,48 @@ textarea {
   }
 }
 
-.footer-list-1:after {
-  bottom: -9px;
-  left: 3px;
-  align-items: center;
-  display: inline-block;
-  position: relative;
-  content: "";
-  background-color: #8f95a5;
-  width: 3px;
-  height: 3px;
+@media screen and (max-width: 320px) {
+  .footer-list-1:after {
+    bottom: 2px;
+    left: 0px;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    content: "";
+    background-color: #8f95a5;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+  }
 }
-
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .footer-list-1:after {
+    bottom: -9px;
+    left: 3px;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    content: "";
+    background-color: #8f95a5;
+    width: 3px;
+    height: 3px;
+  }
+}
 .footer-list {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   letter-spacing: 0.02em;
   color: #8f95a5;
+}
+@media screen and (max-width: 320px) {
+  .footer-list {
+    font-size: 11px;
+    line-height: 16px;
+    margin-right: 2px;
+  }
+  .footer-list:last-child {
+    margin-right: 0px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
   .footer-list {
@@ -1600,8 +1799,6 @@ textarea {
 }
 
 .footer-box {
-  display: flex;
-  width: 1338px;
   height: 1px;
   padding-top: 46px;
   border-top: 1px solid #c4c4c4;
@@ -1611,6 +1808,8 @@ textarea {
     width: 728px;
     height: 1px;
     padding-top: 46px;
+    display: flex;
+    align-items: center;
   }
 }
 @media screen and (min-width: 1338px) {
@@ -1618,7 +1817,71 @@ textarea {
     width: 1338px;
     height: 1px;
     padding-top: 46px;
+    display: flex;
   }
+}
+
+.footer-logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  color: #939393;
+}
+@media screen and (max-width: 320px) {
+  .footer-logo {
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .footer-logo {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .footer-logo {
+    margin-right: 236px;
+    font-size: 36px;
+    line-height: 1.5;
+  }
+}
+.footer-logo:hover,
+.footer-logo :active {
+  color: #000000;
+}
+
+.foter-logo2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+@media screen and (max-width: 320px) {
+  .foter-logo2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1337px) {
+  .foter-logo2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .foter-logo2 {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+}
+.foter-logo2:hover,
+.foter-logo2 :active {
+  color: #939393;
 }
 
 .mobile-overlay {
