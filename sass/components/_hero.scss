@@ -1,5 +1,5 @@
 .hero {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 319px) and (max-width: 767px) {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -13,7 +13,7 @@
   }
 }
 .hero-main__contant {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
   }
   @media screen and(min-width:1338px) {
     width: 540px;
@@ -38,7 +38,7 @@
   font-family: $font-style;
   font-weight: 600;
   color: #000000;
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 24px;
     line-height: calc(36 / 24);
     text-align: center;
@@ -62,7 +62,7 @@
   }
   color: $black-color;
 
-  @media screen and(min-width:321px) and (max-width: 769px) {
+  @media screen and(min-width:767px) and (max-width: 1337px) {
     margin-bottom: 25px;
     width: 217px;
     height: 135px;
@@ -87,7 +87,7 @@
   font-family: $font-style;
   font-weight: 400;
   color: #8f95a5;
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 14px;
     line-height: calc(21 / 14);
     text-align: center;
@@ -98,7 +98,7 @@
     line-height: 36px;
     margin-bottom: 60px;
   }
-  @media screen and (min-width: 321px) and (max-width: 768px) {
+  @media screen and (min-width: 319px) and (max-width: 767px) {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 32px;
@@ -110,7 +110,7 @@
   color: #ffffff;
   background: #263238;
   border-radius: 10px;
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     width: 289px;
     height: 60px;
     font-size: 16px;
@@ -119,16 +119,8 @@
     display: block;
     margin: 0 auto;
   }
-  @media screen and(min-width:1338px) {
-    font-size: 36px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.03em;
-    width: 426px;
-    height: 100px;
-    padding: 23px 64px;
-  }
-  @media screen and(min-width:321px) and (max-width: 768px) {
+
+  @media screen and (min-width: 767px) and (max-width: 1337px) {
     font-size: 18px;
     line-height: calc(27 / 18);
     padding: 19px 67px;
@@ -142,6 +134,15 @@
       #263238,
       #fdeaa8
     );
+  }
+  @media screen and(min-width:1338px) {
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 426px;
+    height: 100px;
+    padding: 23px 64px;
   }
   cursor: pointer;
 }

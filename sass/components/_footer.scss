@@ -1,5 +1,5 @@
 .footer {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     padding-top: 144px;
@@ -11,7 +11,7 @@
   }
 }
 .footer-item {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     display: flex;
     padding-bottom: 48px;
   }
@@ -25,7 +25,7 @@
   }
 }
 .footer-list-1 {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     &:after {
       bottom: 2px;
       left: 0px;
@@ -58,7 +58,7 @@
   }
 }
 .footer-list {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 11px;
     line-height: 16px;
     margin-right: 2px;
@@ -90,7 +90,7 @@
   color: #8f95a5;
 }
 .footer-box {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
   }
   @media screen and (min-width: 768px) and (max-width: 1337px) {
     width: 728px;
@@ -111,7 +111,7 @@
   border-top: 1px solid #c4c4c4;
 }
 .footer-logo {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 24px;
     line-height: 36px;
     display: flex;
@@ -138,7 +138,7 @@
   }
 }
 .foter-logo2 {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 24px;
     line-height: 36px;
   }

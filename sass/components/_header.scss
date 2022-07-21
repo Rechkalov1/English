@@ -1,5 +1,5 @@
 .header {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
   }
   @media screen and(min-width:768px) {
     padding: 39px 0px;
@@ -21,7 +21,7 @@
   }
 }
 .logo {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 24px;
     line-height: 36px;
   }
@@ -47,7 +47,7 @@
 }
 
 .logo2 {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 24px;
     line-height: 36px;
   }

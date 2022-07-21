@@ -33,9 +33,9 @@ textarea {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
-    width: 480px;
+    width: 320px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -87,7 +87,7 @@ textarea {
   align-items: center;
   color: #939393;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .logo {
     font-size: 24px;
     line-height: 36px;
@@ -118,7 +118,7 @@ textarea {
   align-items: center;
   color: #000000;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .logo2 {
     font-size: 24px;
     line-height: 36px;
@@ -185,7 +185,7 @@ textarea {
   background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #fdeaa8, #263238);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 319px) and (max-width: 767px) {
   .hero {
     display: flex;
     flex-direction: column-reverse;
@@ -236,7 +236,7 @@ textarea {
   color: #000000;
   color: #000000;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hero-title {
     font-size: 24px;
     line-height: 1.5;
@@ -261,7 +261,7 @@ textarea {
     height: 99.24px;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 769px) {
+@media screen and (min-width: 767px) and (max-width: 1337px) {
   .hero-title {
     margin-bottom: 25px;
     width: 217px;
@@ -288,7 +288,7 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hero_description {
     font-size: 14px;
     line-height: 1.5;
@@ -303,7 +303,7 @@ textarea {
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 319px) and (max-width: 767px) {
   .hero_description {
     font-size: 16px;
     line-height: 24px;
@@ -319,7 +319,7 @@ textarea {
   border-radius: 10px;
   cursor: pointer;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hero_btn {
     width: 289px;
     height: 60px;
@@ -330,18 +330,7 @@ textarea {
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 1338px) {
-  .hero_btn {
-    font-size: 36px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.03em;
-    width: 426px;
-    height: 100px;
-    padding: 23px 64px;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 767px) and (max-width: 1337px) {
   .hero_btn {
     font-size: 18px;
     line-height: 1.5;
@@ -354,16 +343,27 @@ textarea {
   /* Преображение при наведении */
   background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #263238, #fdeaa8);
 }
+@media screen and (min-width: 1338px) {
+  .hero_btn {
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 426px;
+    height: 100px;
+    padding: 23px 64px;
+  }
+}
 
 .skills {
   position: relative;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills {
     padding-top: 53px;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 1337px) {
+@media screen and (min-width: 768px) and (max-width: 1337px) {
   .skills {
     padding-top: 56px;
   }
@@ -380,14 +380,14 @@ textarea {
   text-align: center;
   color: #000000;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-title {
     margin-bottom: 32px;
     font-size: 24px;
     line-height: 3.3333333333;
   }
 }
-@media screen and (min-width: 321px) and (min-width: 1337px) {
+@media screen and (min-width: 768px) and (min-width: 1337px) {
   .skills-title {
     font-size: 30px;
     line-height: 4;
@@ -417,7 +417,7 @@ textarea {
   background: #f5f5f5;
   border-radius: 10px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar {
     margin-bottom: 21px;
     width: 290px;
@@ -430,7 +430,7 @@ textarea {
     margin-right: 15px;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 1337px) {
+@media screen and (min-width: 768px) and (max-width: 1337px) {
   .skills-left__bar {
     width: 224px;
     height: 662px;
@@ -445,7 +445,7 @@ textarea {
   color: #ffffff;
   cursor: pointer;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar-btn {
     font-size: 14px;
     line-height: 1.5;
@@ -455,7 +455,7 @@ textarea {
     margin-bottom: 45px;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 1337px) {
+@media screen and (min-width: 768px) and (max-width: 1337px) {
   .skills-left__bar-btn {
     width: 178px;
     height: 50px;
@@ -482,7 +482,7 @@ textarea {
   background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #263238, #fdeaa8);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar-img {
     align-items: center;
     display: block;
@@ -509,7 +509,7 @@ textarea {
   font-weight: 600;
   color: #263238;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar-title {
     font-size: 18px;
     line-height: 4.4444444444;
@@ -536,7 +536,7 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar-desc {
     font-size: 13px;
     line-height: 1.5384615385;
@@ -565,7 +565,7 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar-desc__span {
     font-size: 13px;
     line-height: 1.5384615385;
@@ -605,7 +605,7 @@ textarea {
   background: #f5f5f5;
   border-radius: 10px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-1 {
     margin-bottom: 21px;
     width: 290px;
@@ -628,7 +628,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-img-1 {
     align-items: center;
     display: block;
@@ -656,7 +656,7 @@ textarea {
   font-weight: 600;
   color: #263238;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-title-1 {
     font-size: 18px;
     line-height: 4.4444444444;
@@ -683,7 +683,7 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-desc-1 {
     font-size: 13px;
     line-height: 1.5384615385;
@@ -715,7 +715,7 @@ textarea {
   color: #ffffff;
   cursor: pointer;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar-btn-1 {
     font-size: 14px;
     line-height: 1.5;
@@ -756,7 +756,7 @@ textarea {
   background: #f5f5f5;
   border-radius: 10px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-2 {
     margin-bottom: 21px;
     width: 290px;
@@ -776,7 +776,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-img-2 {
     align-items: center;
     display: block;
@@ -804,7 +804,7 @@ textarea {
   font-weight: 600;
   color: #263238;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-title-2 {
     font-size: 18px;
     line-height: 4.4444444444;
@@ -832,7 +832,7 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-desc-2 {
     font-size: 13px;
     line-height: 1.5384615385;
@@ -864,7 +864,7 @@ textarea {
   color: #ffffff;
   cursor: pointer;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar-btn-2 {
     font-size: 14px;
     line-height: 1.5;
@@ -906,7 +906,7 @@ textarea {
   background: #f5f5f5;
   border-radius: 10px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-3 {
     flex-direction: column-reverse;
     width: 290px;
@@ -931,7 +931,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-img-3 {
     align-items: center;
     display: block;
@@ -959,7 +959,7 @@ textarea {
   font-weight: 600;
   color: #263238;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-title-3 {
     font-size: 18px;
     line-height: 4.4444444444;
@@ -988,7 +988,7 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-right__bar-desc-3 {
     font-size: 13px;
     line-height: 1.5384615385;
@@ -1019,7 +1019,7 @@ textarea {
   color: #ffffff;
   cursor: pointer;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills-left__bar-btn-3 {
     font-size: 14px;
     line-height: 1.5;
@@ -1069,7 +1069,7 @@ textarea {
 .about {
   align-items: center;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .about {
     margin-top: 36px;
     flex-direction: column-reverse;
@@ -1089,12 +1089,13 @@ textarea {
 .about-about {
   display: flex;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 319px) and (max-width: 767px) {
   .about-about {
     flex-direction: column-reverse;
+    display: flex;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .about-left {
     margin-top: 20px;
   }
@@ -1153,7 +1154,7 @@ textarea {
 .about-left__list {
   display: flex;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .about-left__list {
     flex-direction: column;
   }
@@ -1188,7 +1189,7 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .about-left__txt {
     margin-top: 5px;
   }
@@ -1211,7 +1212,7 @@ textarea {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .about-left__item {
     margin-top: 20px;
   }
@@ -1243,7 +1244,7 @@ textarea {
   margin-left: 146px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .pricing {
     padding-top: 84px;
   }
@@ -1265,7 +1266,7 @@ textarea {
   font-weight: 600;
   color: #000000;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .priicing-title {
     margin-bottom: 49px;
   }
@@ -1301,7 +1302,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .pricing-item {
     display: inline;
   }
@@ -1362,7 +1363,7 @@ textarea {
   text-transform: capitalize;
   color: #263238;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .pricing-list__title {
     font-size: 18px;
     line-height: 1.5555555556;
@@ -1390,7 +1391,7 @@ textarea {
   font-weight: 400;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .pricing-list__txt {
     font-size: 13px;
     line-height: 1.5384615385;
@@ -1419,7 +1420,7 @@ textarea {
   border-radius: 5px;
   text-align: center;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .pricing-list__price {
     width: 170px;
     text-align: center;
@@ -1487,7 +1488,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts {
     padding-top: 72px;
     padding-bottom: 92px;
@@ -1531,7 +1532,7 @@ textarea {
   font-weight: 600;
   color: #000000;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts-right__title {
     text-align: center;
     margin-bottom: 35px;
@@ -1567,7 +1568,7 @@ textarea {
   line-height: 30px;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts-right__txt {
     font-size: 14px;
     line-height: 1.5;
@@ -1596,7 +1597,7 @@ textarea {
   color: #ffffff;
   cursor: pointer;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts-button {
     width: 272px;
     height: 60px;
@@ -1639,7 +1640,7 @@ textarea {
   font-weight: 400;
   border: 1px solid #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts-input {
     height: 50px;
     padding-left: 30px;
@@ -1693,7 +1694,7 @@ textarea {
   display: flex;
   margin-top: 30px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts-form {
     flex-direction: column;
     width: 271px;
@@ -1713,7 +1714,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-item {
     display: flex;
     padding-bottom: 48px;
@@ -1732,7 +1733,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-list-1:after {
     bottom: 2px;
     left: 0px;
@@ -1765,7 +1766,7 @@ textarea {
   letter-spacing: 0.02em;
   color: #8f95a5;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-list {
     font-size: 11px;
     line-height: 16px;
@@ -1828,7 +1829,7 @@ textarea {
   align-items: center;
   color: #939393;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-logo {
     font-size: 24px;
     line-height: 36px;
@@ -1861,7 +1862,7 @@ textarea {
   align-items: center;
   color: #000000;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .foter-logo2 {
     font-size: 24px;
     line-height: 36px;
