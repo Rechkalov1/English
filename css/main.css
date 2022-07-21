@@ -307,7 +307,7 @@ textarea {
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 319px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1337px) {
   .hero_description {
     font-size: 16px;
     line-height: 24px;
