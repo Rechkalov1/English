@@ -195,7 +195,7 @@ textarea {
     flex-direction: column-reverse;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 1337px) {
+@media screen and (min-width: 768px) and (max-width: 1337px) {
   .hero {
     padding-top: 30px;
     display: flex;
@@ -226,7 +226,7 @@ textarea {
     padding-left: 144px;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 1337px) {
+@media screen and (min-width: 768px) and (max-width: 1337px) {
   .hero-logo {
     width: 352px;
     height: 352px;
@@ -457,6 +457,7 @@ textarea {
     width: 178px;
     height: 50px;
     margin-bottom: 45px;
+    margin-left: 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -517,6 +518,7 @@ textarea {
   .skills-left__bar-title {
     font-size: 18px;
     line-height: 4.4444444444;
+    padding: 0 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -544,6 +546,7 @@ textarea {
   .skills-left__bar-desc {
     font-size: 13px;
     line-height: 1.5384615385;
+    padding: 0 13px;
     margin-bottom: 30px;
   }
 }
@@ -551,7 +554,7 @@ textarea {
   .skills-left__bar-desc {
     font-size: 13px;
     line-height: 1.5384615385;
-    margin-left: 14px;
+    padding: 0 13px;
   }
 }
 @media screen and (min-width: 1338px) {
@@ -573,6 +576,7 @@ textarea {
   .skills-left__bar-desc__span {
     font-size: 13px;
     line-height: 1.5384615385;
+    padding: 0 13px;
     margin-bottom: 30px;
   }
 }
@@ -664,6 +668,7 @@ textarea {
   .skills-right__bar-title-1 {
     font-size: 18px;
     line-height: 4.4444444444;
+    padding: 0 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -692,6 +697,7 @@ textarea {
     font-size: 13px;
     line-height: 1.5384615385;
     margin-bottom: 30px;
+    padding: 0 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -727,6 +733,7 @@ textarea {
     width: 178px;
     height: 50px;
     margin-bottom: 45px;
+    margin-left: 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -812,6 +819,7 @@ textarea {
   .skills-right__bar-title-2 {
     font-size: 18px;
     line-height: 4.4444444444;
+    padding: 0 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -841,6 +849,7 @@ textarea {
     font-size: 13px;
     line-height: 1.5384615385;
     margin-bottom: 30px;
+    padding: 0 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -876,6 +885,7 @@ textarea {
     width: 178px;
     height: 50px;
     margin-bottom: 45px;
+    margin-left: 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -967,6 +977,7 @@ textarea {
   .skills-right__bar-title-3 {
     font-size: 18px;
     line-height: 4.4444444444;
+    padding: 0 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -997,6 +1008,7 @@ textarea {
     font-size: 13px;
     line-height: 1.5384615385;
     margin-bottom: 30px;
+    padding: 0 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -1031,6 +1043,7 @@ textarea {
     width: 178px;
     height: 50px;
     margin-bottom: 45px;
+    margin-left: 13px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
@@ -1428,8 +1441,8 @@ textarea {
   .pricing-list__price {
     width: 170px;
     text-align: center;
-    height: 37px;
-    margin: 0 auto;
+    height: 25px;
+    margin: 5px auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1337px) {
