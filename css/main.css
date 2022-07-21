@@ -156,6 +156,12 @@ textarea {
 .header-list:last-child {
   margin-right: 0px;
 }
+.header-list:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid;
+  transition: 0.3s;
+}
 
 .header-btn {
   font-family: "Poppins", sans-serif;

@@ -75,6 +75,7 @@
 .header-item {
   display: flex;
 }
+
 .header-list {
   font-family: $font-style;
   font-weight: $font-weight500;
@@ -85,6 +86,12 @@
     margin-right: 0px;
   }
   color: $main-color;
+  &:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid;
+    transition: 0.3s;
+  }
 }
 
 .header-btn {
